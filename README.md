@@ -12,6 +12,8 @@ You need Redis server install on your computer.
 ```
 wget http://download.redis.io/redis-stable.tar.gz
 tar xvzf redis-stable.tar.gz
+cd redis-stable
+make
 ```
 
 check if redis work:
